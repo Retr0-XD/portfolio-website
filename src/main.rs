@@ -1,4 +1,4 @@
-// src/main.rs — Darshan Vichhi Portfolio × Leptos 0.7
+// src/main.rs — Sakthi Harish Portfolio × Leptos 0.7
 //
 // ── HOW TO EDIT CONTENT ───────────────────────────────────────────────────────
 // Edit /content.json — every section of the portfolio reads from that file.
@@ -51,8 +51,8 @@ fn App() -> impl IntoView {
     });
 
     view! {
-        <Title text="DARSHAN VICHHI [MANIFESTO] — Systems Engineer" />
-        <Meta name="description" content="Darshan Vichhi — Polyglot Systems Programmer specialize in high-throughput, memory-safe architectures." />
+        <Title text="SAKTHI HARISH [MANIFESTO] — Software, DevOps & Platform Engineer" />
+        <Meta name="description" content="Sakthi Harish — Software Engineer focused on scalable cloud solutions, delivery automation, Kubernetes, and platform engineering." />
 
         <Splash />
 

@@ -60,7 +60,7 @@ jobs:
           version: 'latest'
 
       - name: Build
-        run: trunk build --release --public-url /rust-portfolio/
+        run: trunk build --release --public-url ./
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -75,7 +75,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-Once this file is committed to your `main` branch, GitHub will automatically build your site and host it at `https://aarambh-darshan.github.io/rust-portfolio/`.
+Once this file is committed to your `main` branch, GitHub will automatically build your site and host it at `https://retr0-xd.github.io/portfolio-website/`.
 
 ## Local Development
 
