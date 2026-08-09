@@ -153,12 +153,6 @@
       "href": "https://cloud.google.com/certification/cloud-engineer"
     },
     {
-      "name": "CKA: Certified Kubernetes Administrator",
-      "issuer": "CNCF / Linux Foundation",
-      "year": "2024",
-      "href": "https://www.cncf.io/certification/cka/"
-    },
-    {
       "name": "Red Hat Certified Specialist in Ansible Automation",
       "issuer": "Red Hat",
       "year": "2024",
@@ -169,18 +163,6 @@
       "issuer": "Red Hat",
       "year": "2023",
       "href": "https://www.redhat.com/en/services/certification/rhcsa"
-    },
-    {
-      "name": "HashiCorp Certified: Terraform Associate",
-      "issuer": "HashiCorp",
-      "year": "2023",
-      "href": "https://www.hashicorp.com/certification/terraform-associate"
-    },
-    {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "year": "2023",
-      "href": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
     }
   ],
   "articles": [
