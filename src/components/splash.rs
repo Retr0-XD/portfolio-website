@@ -12,7 +12,7 @@ pub fn Splash() -> impl IntoView {
         <div id="splash-screen"
              class="fixed inset-0 z-[9999] bg-bg flex flex-col items-center justify-center gap-10">
             <div class="stamp-container flex flex-col items-center gap-2">
-                <div class="stamp-block stamp-1 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-text">"SYSTEMS"</div>
+                <div class="stamp-block stamp-1 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-text">"SOFTWARE"</div>
                 <div class="stamp-block stamp-2 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-text">"ENGINEER"</div>
                 <div class="stamp-block stamp-3 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-red">"SAKTHI"</div>
                 <div class="stamp-block stamp-4 font-serif font-black text-[clamp(2.5rem,7vw,5rem)] tracking-[-0.03em] leading-none text-red">"HARISH"</div>

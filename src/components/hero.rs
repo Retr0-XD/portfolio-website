@@ -22,7 +22,7 @@ pub fn Hero() -> impl IntoView {
                     <span class="line">{h.headline_1}</span>
                     <span class="line italic">{h.headline_2}</span>
                 </h1>
-                <p class="hero-body text-[clamp(0.85rem,1.1vw,1rem)] leading-[1.7] text-muted max-w-[460px] mt-7">{h.body}</p>
+                <p class="hero-body text-[clamp(0.85rem,1.1vw,1rem)] leading-[1.7] text-text max-w-[460px] mt-7">{h.body}</p>
             </div>
             <div class="col-span-full md:col-span-3 flex flex-row md:flex-col p-[clamp(32px,5vw,80px)] md:p-0">
                 {stats.into_iter().map(|s| {
