@@ -30,7 +30,7 @@ pub fn Certifications() -> impl IntoView {
                             >
                                 <div class="flex flex-col">
                                     <span class="font-serif text-[0.9rem] font-bold">{item.name}</span>
-                                    <span class="text-[0.65rem] font-semibold tracking-[0.2em] text-muted mt-1">{item.issuer} • {item.year}</span>
+                                    <span class="text-[0.65rem] font-semibold tracking-[0.2em] text-muted mt-1">{item.issuer} | {item.year}</span>
                                 </div>
                                 <span class="text-[0.6rem] tracking-[0.15em] text-muted">"VIEW"</span>
                             </a>

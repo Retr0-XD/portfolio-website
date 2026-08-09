@@ -69,6 +69,14 @@ pub struct RecItem {
 }
 
 #[derive(Deserialize, Clone)]
+pub struct Certification {
+    pub name:   String,
+    pub issuer: String,
+    pub year:   String,
+    pub href:   String,
+}
+
+#[derive(Deserialize, Clone)]
 pub struct Article {
     pub kind:  String,
     pub title: String,
@@ -95,15 +103,16 @@ pub struct Footer {
 
 #[derive(Deserialize, Clone)]
 pub struct Content {
-    pub meta:        Meta,
-    pub hero:        Hero,
-    pub projects:    Vec<Project>,
-    pub experience:  Vec<CvEntry>,
-    pub skills:      Skills,
-    pub recognition: Vec<RecItem>,
-    pub articles:    Vec<Article>,
-    pub contact:     Contact,
-    pub footer:      Footer,
+    pub meta:            Meta,
+    pub hero:            Hero,
+    pub projects:        Vec<Project>,
+    pub experience:      Vec<CvEntry>,
+    pub skills:          Skills,
+    pub recognition:     Vec<RecItem>,
+    pub certifications:  Vec<Certification>,
+    pub articles:        Vec<Article>,
+    pub contact:         Contact,
+    pub footer:          Footer,
 }
 
 // ── Compile-time embed ────────────────────────────────────────────────────────
