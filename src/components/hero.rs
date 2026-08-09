@@ -18,7 +18,7 @@ pub fn Hero() -> impl IntoView {
                 <p class="font-sans text-[0.6rem] font-medium tracking-[0.2em] uppercase text-muted [writing-mode:vertical-rl] [text-orientation:mixed]">{c.meta.edition}</p>
             </div>
             <div class="col-span-full md:col-span-7 p-[clamp(32px,5vw,80px)] flex flex-col justify-center border-r">
-                <h1 class="hero-title font-serif text-[clamp(3rem,8vw,7.5rem)] font-black leading-[0.95] tracking-[-0.02em]">
+                <h1 class="hero-title font-serif text-[clamp(3rem,8vw,7.5rem)] font-black leading-[0.95] tracking-[0.01em]">
                     <span class="line">{h.headline_1}</span>
                     <span class="line italic">{h.headline_2}</span>
                 </h1>
