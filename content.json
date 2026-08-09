@@ -11,7 +11,7 @@
     "body": "Software Engineer specializing in scalable cloud solutions, delivery automation, and platform engineering. Building resilient systems on GCP with Kubernetes, automating infrastructure, and implementing DevSecOps practices for high-availability platforms.",
     "stats": [
       {
-        "num": "4+",
+        "num": "2+",
         "label": "YEARS EXP"
       },
       {
@@ -137,17 +137,17 @@
     {
       "kind": "ARTICLE",
       "title": "BUILDING SCALABLE PLATFORMS ON GCP WITH KUBERNETES",
-      "href": "https://medium.com/@sakthiharish/building-scalable-platforms-on-gcp-with-kubernetes"
+      "href": "https://medium.com/@sakthiharish705/building-scalable-platforms-on-gcp-with-kubernetes-ef5652ef380a?sharedUserId=sakthiharish705"
     },
     {
       "kind": "ARTICLE",
       "title": "DEVOPS AUTOMATION: FROM MANUAL TO INFRASTRUCTURE AS CODE",
-      "href": "https://medium.com/@sakthiharish/devops-automation-from-manual-to-infrastructure-as-code"
+      "href": "https://medium.com/@sakthiharish705/devops-automation-from-manual-operations-to-infrastructure-as-code-ccdefb396344?sharedUserId=sakthiharish705"
     },
     {
       "kind": "ARTICLE",
       "title": "OBSERVABILITY PATTERNS FOR CLOUD-NATIVE APPLICATIONS",
-      "href": "https://medium.com/@sakthiharish/observability-patterns-for-cloud-native-applications"
+      "href": "https://github.com/Retr0-XD"
     }
   ],
   "contact": {
