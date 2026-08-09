@@ -8,7 +8,7 @@
   "hero": {
     "headline_1": "Infrastructure",
     "headline_2": "Automated.",
-    "body": "Software Engineer specializing in scalable cloud solutions, delivery automation, and platform engineering. Building resilient systems on GCP with Kubernetes, automating infrastructure, and implementing DevSecOps practices for high-availability platforms.",
+    "body": "Software Engineer specializing in scalable cloud solutions, delivery automation, and platform engineering. Building resilient systems on GCP with Kubernetes, automating cloud infrastructure, and implementing DevSecOps practices for high-availability platforms.",
     "stats": [
       {
         "num": "2+",
@@ -20,7 +20,9 @@
       },
       {
         "num": "5+",
-        "label": "TECH STACKS"
+        "label": "TECHANGES: cargo? but keep.
+
+Also need to ensure mod.rs not include theme_currrent task. Let me make the changes to content.json first.
       }
     ]
   },
@@ -95,7 +97,7 @@
       {
         "title": "LANGUAGES",
         "color": "blue",
-        "list": "Java, Python, Go, Bash, TypeScript"
+        "list": "Java, Python, Go, Bash, JavaScript"
       },
       {
         "title": "CLOUD & PLATFORM",
@@ -131,6 +133,32 @@
     {
       "org": "GITHUB",
       "award": "UltraCache — High Performance Cache"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google Cloud",
+      "year": "2024",
+      "href": "https://cloud.google.com/certification/cloud-architect"
+    },
+    {
+      "name": "CKA: Certified Kubernetes Administrator",
+      "issuer": "CNCF / Linux Foundation",
+      "year": "2024",
+      "href": "https://www.cncf.io/certification/cka/"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate",
+      "issuer": "HashiCorp",
+      "year": "2023",
+      "href": "https://www.hashicorp.com/certification/terraform-associate"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": "2023",
+      "href": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
     }
   ],
   "articles": [

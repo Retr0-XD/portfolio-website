@@ -7,5 +7,6 @@ pub mod philosophy;
 pub mod experience;
 pub mod skills;
 pub mod recognition;
+pub mod certifications;
 pub mod insights;
 pub mod contact;

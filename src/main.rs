@@ -23,6 +23,7 @@ use components::{
     experience::Experience,
     skills::Skills,
     recognition::Recognition,
+    certifications::Certifications,
     insights::Insights,
     contact::Contact,
 };
@@ -74,6 +75,8 @@ fn App() -> impl IntoView {
             <Skills />
 
             <Recognition />
+
+            <Certifications />
 
             <Insights />
 
