@@ -2,19 +2,48 @@
 @source "../src";
 
 @theme {
-  --color-bg: #f5f0e8;
-  --color-bg-dark: #0a0a0a;
-  --color-text: #0a0a0a;
-  --color-text-inv: #f5f0e8;
-  --color-muted: #8a8577;
-  --color-border: #0a0a0a;
-  --color-red: #d42b2b;
-  --color-blue: #1a3dc4;
-  --color-yellow: #f5c518;
-  --color-offwhite: #f5f0e8;
+  /* ── CORE PALETTE ────────────────────────────────────────────── */
+  --color-bg: #faf8f3;           /* Warm paper white */
+  --color-bg-elevated: #f0ebe0;  /* Slightly darker for cards/sections */
+  --color-bg-dark: #0d0d0d;      /* Deep charcoal (not pure black) */
+  --color-bg-darker: #050505;    /* Near-black for contrast */
+  
+  --color-text: #1a1a1a;         /* Soft black for readability */
+  --color-text-inv: #faf8f3;     /* Paper white */
+  --color-text-muted: #6b6860;   /* Warm gray */
+  --color-text-subtle: #9a968c;  /* Lighter warm gray */
+  
+  --color-border: #d8d4c8;       /* Warm border */
+  --color-border-strong: #1a1a1a; /* Strong border */
+  
+  /* ── ACCENT COLORS (refined) ─────────────────────────────────── */
+  --color-accent: #c41e3a;       /* Deep crimson - primary action */
+  --color-accent-hover: #a0182e; /* Darker on hover */
+  --color-accent-light: #fef2f2; /* Light tint for backgrounds */
+  
+  --color-accent-blue: #1e3a8a;  /* Deep navy blue */
+  --color-accent-blue-hover: #172d6e;
+  --color-accent-blue-light: #eff6ff;
+  
+  --color-accent-amber: #b45309; /* Rich amber/gold */
+  --color-accent-amber-hover: #92400e;
+  --color-accent-amber-light: #fffbeb;
+  
+  --color-accent-emerald: #065f46; /* Deep emerald */
+  --color-accent-emerald-hover: #044d3a;
+  --color-accent-emerald-light: #ecfdf5;
+  
+  /* ── SEMANTIC ALIASES (for backward compat) ──────────────────── */
+  --color-red: var(--color-accent);
+  --color-blue: var(--color-accent-blue);
+  --color-yellow: var(--color-accent-amber);
+  --color-green: var(--color-accent-emerald);
+  --color-muted: var(--color-text-muted);
+  --color-offwhite: var(--color-bg);
 
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
 @layer base {

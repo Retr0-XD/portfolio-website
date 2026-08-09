@@ -137,22 +137,22 @@
     {
       "kind": "ARTICLE",
       "title": "BUILDING SCALABLE PLATFORMS ON GCP WITH KUBERNETES",
-      "href": "https://github.com/Retr0-XD"
+      "href": "https://medium.com/@sakthiharish/building-scalable-platforms-on-gcp-with-kubernetes"
     },
     {
       "kind": "ARTICLE",
       "title": "DEVOPS AUTOMATION: FROM MANUAL TO INFRASTRUCTURE AS CODE",
-      "href": "https://github.com/Retr0-XD"
+      "href": "https://medium.com/@sakthiharish/devops-automation-from-manual-to-infrastructure-as-code"
     },
     {
       "kind": "ARTICLE",
       "title": "OBSERVABILITY PATTERNS FOR CLOUD-NATIVE APPLICATIONS",
-      "href": "https://github.com/Retr0-XD"
+      "href": "https://medium.com/@sakthiharish/observability-patterns-for-cloud-native-applications"
     }
   ],
   "contact": {
-    "email": "",
-    "github_org": "",
+    "email": "sakthiharish@example.com",
+    "github_org": "https://github.com/Retr0-XD",
     "github_personal": "https://github.com/Retr0-XD",
     "linkedin": "https://www.linkedin.com/in/sakthi-harish-s-491489148/",
     "youtube": "",

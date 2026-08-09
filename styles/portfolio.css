@@ -3,14 +3,14 @@
    Animations, pseudo-elements, complex selectors
    ═══════════════════════════════════════════════════ */
 
-/* ── NOISE OVERLAY ─────────────────────────────── */
+/* ── NOISE OVERLAY (subtle texture) ─────────────── */
 .noise-overlay {
   position: fixed;
   inset: 0;
   z-index: 9998;
   pointer-events: none;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 /* ── BLEND CURSOR ──────────────────────────────── */
@@ -26,7 +26,7 @@
 .cur-dot {
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: var(--color-text-inv);
   border-radius: 50%;
   position: absolute;
   top: -4px;
@@ -36,7 +36,7 @@
 .cur-circle {
   width: 50px;
   height: 50px;
-  border: 2px solid #fff;
+  border: 2px solid var(--color-text-inv);
   border-radius: 50%;
   position: absolute;
   top: -25px;
@@ -52,6 +52,7 @@
   height: 80px;
   top: -40px;
   left: -40px;
+  border-color: var(--color-accent);
 }
 
 /* ── SPLASH (GSAP animation states) ────────────── */
@@ -62,13 +63,13 @@
 
 .ring-bg {
   fill: none;
-  stroke: rgba(0, 0, 0, 0.08);
+  stroke: rgba(0, 0, 0, 0.06);
   stroke-width: 2;
 }
 
 .ring-fill {
   fill: none;
-  stroke: var(--color-red);
+  stroke: var(--color-accent);
   stroke-width: 2;
   stroke-dasharray: 283;
   stroke-dashoffset: 283;
@@ -88,12 +89,12 @@
   left: 0;
   width: 0;
   height: 1px;
-  background: var(--color-red);
+  background: var(--color-accent);
   transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .nav-link:hover {
-  color: var(--color-red);
+  color: var(--color-accent);
 }
 
 .nav-link:hover::after {
@@ -110,12 +111,11 @@
 
 /* ── TICKER KEYFRAMES ──────────────────────────── */
 .ticker-track {
-  animation: marquee 25s linear infinite;
-  /* Add padding equal to the gap between elements if any, handled in rust classes */
+  animation: marquee 30s linear infinite;
 }
 
 .ticker-track.reverse {
-  animation: marquee-reverse 25s linear infinite;
+  animation: marquee-reverse 30s linear infinite;
 }
 
 @keyframes marquee {
@@ -145,13 +145,14 @@
   transition: opacity 0.3s ease;
 }
 
-.project-row[data-accent="red"]::before { background: var(--color-red); }
-.project-row[data-accent="blue"]::before { background: var(--color-blue); }
-.project-row[data-accent="yellow"]::before { background: var(--color-yellow); }
+.project-row[data-accent="red"]::before { background: var(--color-accent); }
+.project-row[data-accent="blue"]::before { background: var(--color-accent-blue); }
+.project-row[data-accent="yellow"]::before { background: var(--color-accent-amber); }
+.project-row[data-accent="green"]::before { background: var(--color-accent-emerald); }
 .project-row[data-accent="black"]::before { background: var(--color-bg-dark); }
 .project-row:hover::before { opacity: 1; }
-.project-row:hover { background: rgba(0, 0, 0, 0.02); }
-.project-row:hover .serif-huge { color: var(--color-red); }
+.project-row:hover { background: var(--color-bg-elevated); }
+.project-row:hover .serif-huge { color: var(--color-accent); }
 
 .serif-huge {
   transition: color 0.3s ease;
@@ -163,7 +164,7 @@
 }
 
 .cv-row:hover {
-  background: rgba(0, 0, 0, 0.02);
+  background: var(--color-bg-elevated);
   padding-left: 8px;
 }
 
@@ -182,7 +183,7 @@
 }
 
 .article-row:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: var(--color-bg-elevated);
 }
 
 .article-row:hover .art-arrow {
@@ -207,6 +208,18 @@
 .marquee-outline {
   -webkit-text-stroke: 1.5px var(--color-text);
   color: transparent;
+}
+
+/* ── ELEVATED SURFACES ─────────────────────────── */
+.surface-elevated {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+}
+
+/* ── FOCUS STATES ──────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 /* ── RESPONSIVE (cursor only) ──────────────────── */
