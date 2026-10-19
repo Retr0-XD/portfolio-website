@@ -52,7 +52,7 @@ fn App() -> impl IntoView {
     });
 
     view! {
-        <Title text="SAKTHI HARISH [MANIFESTO] — Software, DevOps & Platform Engineer" />
+        <Title text="SAKTHI HARISH — Software, DevOps & Platform Engineer" />
         <Meta name="description" content="Sakthi Harish — Software Engineer focused on scalable cloud solutions, delivery automation, Kubernetes, and platform engineering." />
 
         <Splash />
