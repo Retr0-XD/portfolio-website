@@ -1,7 +1,5 @@
 # MANIFESTO 2026
 
-**DARSHAN VICHHI // SYSTEMS ENGINEER**
-
 A brutalist, high-performance, single-page portfolio built from the ground up to reflect structural integrity, low latency, and systems architecture.
 
 ## Stack Architecture
@@ -90,16 +88,6 @@ cargo install trunk
 trunk serve --open
 ```
 
-## 🛠️ Forking & Customizing (Open Source)
-
-This portfolio is open source and free to use! 
-
-Because the entire architecture is statically compiled, **you do not need to touch any Rust code to customize this site for yourself.**
-
-1. **Fork** this repository.
-2. **Edit `content.json`:** Open the `content.json` file in the root directory. All of the text, projects, skills, and links on the website are pulled directly from this file at compile time. Just replace my data with yours!
-3. **Change the SEO Data:** Open `index.html` and swap out the meta tags, `<title>`, and descriptions with your own information.
-4. **Deploy:** Enable GitHub Pages in your repository settings (Settings > Pages > Source: GitHub Actions), and GitHub will automatically build and publish your customized portfolio.
 
 ## 📄 License
 
