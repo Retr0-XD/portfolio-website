@@ -11,7 +11,7 @@
     "body": "Software Engineer specializing in scalable cloud solutions, delivery automation, and platform engineering. Building resilient systems on GCP with Kubernetes, automating cloud infrastructure, and implementing DevSecOps practices for high-availability platforms.",
     "stats": [
       {
-        "num": "2+",
+        "num": "2",
         "label": "YEARS EXP"
       },
       {
@@ -137,31 +137,31 @@
     {
       "name": "Google Cloud Professional Cloud Architect",
       "issuer": "Google Cloud",
-      "year": "2024",
+      "year": "2026",
       "href": "https://cloud.google.com/certification/cloud-architect"
     },
     {
       "name": "Google Cloud Professional DevOps Engineer",
       "issuer": "Google Cloud",
-      "year": "2024",
+      "year": "2026",
       "href": "https://cloud.google.com/certification/devops-engineer"
     },
     {
       "name": "Google Cloud Associate Cloud Engineer",
       "issuer": "Google Cloud",
-      "year": "2023",
+      "year": "2026",
       "href": "https://cloud.google.com/certification/cloud-engineer"
     },
     {
       "name": "Red Hat Certified Specialist in Ansible Automation",
       "issuer": "Red Hat",
-      "year": "2024",
+      "year": "2026",
       "href": "https://www.redhat.com/en/services/certification/ansible-automation"
     },
     {
       "name": "Red Hat Certified System Administrator (RHCSA)",
       "issuer": "Red Hat",
-      "year": "2023",
+      "year": "2026",
       "href": "https://www.redhat.com/en/services/certification/rhcsa"
     }
   ],
@@ -194,6 +194,6 @@
   },
   "footer": {
     "left": "© 2026 SAKTHI HARISH",
-    "right": "PLATFORM ENGINEER EDITION"
+    "right": "Retr0"
   }
 }
