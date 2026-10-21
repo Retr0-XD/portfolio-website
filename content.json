@@ -33,7 +33,7 @@
         "GO",
         "KUBERNETES",
         "GCP",
-        "2024"
+        "2026"
       ],
       "desc": "A distributed computing engine for large-scale data processing with automated scaling, fault tolerance, and multi-cloud deployment capabilities.",
       "accent": "blue",
@@ -47,7 +47,7 @@
         "PYTHON",
         "PROMETHEUS",
         "GRAFANA",
-        "2024"
+        "2026"
       ],
       "desc": "Full-stack observability platform with custom metrics collection, alerting rules, and automated incident response for cloud-native applications.",
       "accent": "yellow",
@@ -61,7 +61,7 @@
         "GO",
         "ETCD",
         "RAFT",
-        "2024"
+        "2026"
       ],
       "desc": "Consistent state management system using Raft consensus for distributed applications with strong consistency guarantees and automatic failover.",
       "accent": "red",
@@ -75,7 +75,7 @@
         "GO",
         "REDIS",
         "CONSISTENT HASHING",
-        "2024"
+        "2026"
       ],
       "desc": "Ultra-fast distributed caching layer with consistent hashing, automatic sharding, and sub-millisecond latency for high-throughput applications.",
       "accent": "green",
